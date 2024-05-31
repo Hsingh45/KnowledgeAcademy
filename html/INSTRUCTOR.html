@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+        }
+        .header {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .instructors-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(242, 242, 242);
+            padding: 20px;
+        }
+        .instructor {
+            background-color: rgb(255, 255, 255);
+            width: 25%;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .instructor img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .instructor-details {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin: 0;
+            margin-bottom: 10px;
+            color: rgb(51, 51, 51);
+        }
+        p {
+            margin: 0;
+            color: rgb(102, 102, 102);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Meet Our Instructors</h1>
+    </div>
+
+    <!-- Instructors Tab -->
+    <div class="instructors-container">
+        <div class="instructor" onclick="location.href='https://www.youtube.com/watch?v=ViA-6n6kjbE&ab_channel=JEEWallah';" style="cursor:pointer;">
+            <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d87b6ef8-a4c6-41c1-a2b4-501662f122f1.png" alt="Instructor 1">
+            <div class="instructor-details">
+                <h3>Mobashshir Alay Sir</h3>
+                <p>Passionate about unraveling the mysteries of the universe and inspiring the next generation of physicists.</p>
+            </div>
+        </div>
+        <div class="instructor" onclick="location.href='https://www.youtube.com/watch?v=Lm0Mad08Pz8&ab_channel=ARJUNA_NEET_WALLAH_3.0';" style="cursor:pointer;">
+            <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/ad54256c-e3c6-4a4e-ab4f-ceb35a908731.png" alt="Instructor 2">
+            <div class="instructor-details">
+                <h3>Arpit Bharadwaj Sir</h3>
+                <p>Dedicated to foster a love for the intricacies of chemical reactions and encouraging critical thinking in the world of chemistry.</p>
+            </div>
+        </div>
+        <div class="instructor" onclick="location.href='https://www.youtube.com/watch?v=Ch1IGF-UB4U&ab_channel=Adda247';" style="cursor:pointer;">
+            <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/f53ae40c-67a8-464d-afe6-2c4debf017ee.png" alt="Instructor 3">
+            <div class="instructor-details">
+                <h3>Manish Kumar Suman Sir</h3>
+                <p>Committed to cultivate a deep understanding of maths concepts and nurture problem-solving skills in students.</p>
+            </div>
+        </div>
+        <div class="instructor" onclick="location.href='https://www.youtube.com/watch?v=HPADvlWAO9o&ab_channel=PhysicsWallah-AlakhPandey';" style="cursor:pointer;">
+            <img src="https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/14d60998-abf0-474b-a051-da57ed829181.png" alt="Instructor 4">
+            <div class="instructor-details">
+                <h3>Samapti Sinha Ma'am</h3>
+                <p>Enthusiastic about exploring the wonders of life and instilling a sense of curiosity and respect for the natural world.</p>
+            </div>
+        </div>
+        <div class="instructor" onclick="location.href='https://www.youtube.com/watch?v=eKq14bBNeGQ&ab_channel=CollegeWallah';" style="cursor:pointer;">
+            <img src="https://i.ytimg.com/vi/FhfIgnNabA8/frame0.jpg" alt="Instructor 5">
+            <div class="instructor-details">
+                <h3>Harsh Tyagi Sir</h3>
+                <p>Driven to impart the latest technological knowledge and equip students with the skills needed to excel in the digital era.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

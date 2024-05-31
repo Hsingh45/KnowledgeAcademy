@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .registration-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333333;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="registration-container">
+        <h2>Student Registration</h2>
+        <form action="reg.php" method="post">
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required><br>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br>
+            <input type="text" id="mobileNumber" name="mobileNumber" placeholder="Mobile Number" required><br>
+            <input type="email" id="email" name="email" placeholder="Email Address" required><br>
+            <input type="number" id="age" name="age" placeholder="Age" required><br>
+            <input type="text" id="class" name="class" placeholder="Class" required><br>
+            <label for="courseCode">Choose a course code:</label>
+
+            </select>
+
+            <div class="dropdown">
+                <div class="dropdown-content">
+                  <input type="checkbox" id="NEEV101" name="courseCode" value="NEEV101">
+                  <label for="NEEV101">NEEV101</label><br>
+              
+                  <input type="checkbox" id="UDAAN102" name="courseCode" value="UDAAN102">
+                  <label for="UDAAN102">UDAAN102</label><br>
+              
+                  <input type="checkbox" id="VICTORY103" name="courseCode" value="VICTORY103">
+                  <label for="VICTORY103">VICTORY103</label><br>
+              
+                  <input type="checkbox" id="PARISHRAM104" name="courseCode" value="PARISHRAM104">
+                  <label for="PARISHRAM104">PARISHRAM104</label><br>
+              
+                  <input type="checkbox" id="LAKSHYA105" name="courseCode" value="LAKSHYA105">
+                  <label for="LAKSHYA105">LAKSHYA105</label><br>
+              
+                  <input type="checkbox" id="YAKEEN106" name="courseCode" value="YAKEEN106">
+                  <label for="YAKEEN106">YAKEEN106</label><br>
+                </div>
+              </div>
+
+
+
+            <br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+
+</html>
